@@ -4,12 +4,14 @@
 </head>
 <body>
 <h1>Hello World</h1>
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/cca5b4bb-8391-4743-a647-7cd9dc5ef5e3">
-</iframe>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+<df-messenger
+  df-cx="true"
+  location="us-central1"
+  chat-title="Small talk"
+  agent-id="11dddcf9-a9ae-4293-bfb7-c6752bfa91d2"
+  language-code="en"
+></df-messenger>
 
 </body>
 </html>
