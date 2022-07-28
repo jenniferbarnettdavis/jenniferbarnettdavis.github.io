@@ -1,17 +1,16 @@
 <doctype html>
 <head>
-<script src="https://apis.google.com/js/client.js?onload=gapiLoaded" nonce="4Svc6dM7F0vdPGYN5KZN0g"></script>
 </head>
 <body>
 <h1>Hello World</h1>
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
-<df-messenger
-  df-cx="true"
-  location="us-central1"
-  chat-title="Small talk"
-  agent-id="11dddcf9-a9ae-4293-bfb7-c6752bfa91d2"
-  language-code="en"
-></df-messenger>
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+    hostUrl: 'https://cdn.botpress.cloud/webchat/v0',
+    messagingUrl: 'https://messaging.botpress.cloud',
+    clientId: '5018b149-c9d4-4548-a9cd-855c249f8c3e'
+  })
+</script>
 
 </body>
 </html>
