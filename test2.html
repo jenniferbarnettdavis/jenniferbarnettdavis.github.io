@@ -4,13 +4,15 @@
 <body>
 <h1>Hello World</h1>
 
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/514e1d2c-f1fc-4471-ba12-acb2e9a97c48">
-</iframe>
-
+<div style='border: 3px double black; min-width: 600px; min-height: 600px;'>
+<script>
+  window.botpressWebChat.init({
+    host: "<your-url-here>",
+    botId: "mcclintock",
+  })
+</script>
+    </div>
+    
 
 </body>
 </html>
